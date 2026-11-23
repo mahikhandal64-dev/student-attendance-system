@@ -1,0 +1,18 @@
+{
+  "name": "student-attendance-system",
+  "version": "1.0.0",
+  "description": "Student Attendance System - Built by Mahi and Team",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "keywords": ["student", "attendance", "react", "express", "sqlite", "mahi-and-team"],
+  "author": "Mahi and Team",
+  "license": "ISC"
+}
